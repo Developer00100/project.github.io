@@ -1,0 +1,100 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(/image.png);
+}
+ul {
+    /* list-style: none;
+    transition: 4s; */
+
+}
+
+a {
+    /* text-decoration: none;
+    color: #fff;
+    transition: 4s; */
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    gap: 10px;
+}
+
+.box {
+    
+    margin-top: 200px;
+    margin-left: 770px;
+
+
+    width: 330px;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(40px);
+    color: #222;
+}
+.box-container {
+    /* border: 1px solid #fff;
+    padding: 70px;
+    max-width: 300px; */
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 999px;
+}
+.contact {
+}
+.title {
+    /* color: #fff;
+    font-size: 30px;
+    text-align: center; */
+    width: 250px;
+    height: 50px;
+    margin-top: 15px;
+    background: #ddd2;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff4;
+    margin-left: 37px;
+
+}
+.contact-list {
+    width: 250px;
+    font-size: 25px;
+    gap: 10px;
+    list-style: none;
+    margin-top: 20px;
+}
+.contact-item {
+    /* padding-top: 3px; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff4;
+    transition: all 2s;
+    background: #fff4;
+}
+.fa-brands {
+}
+.fa-instagram {
+}
+.fa-telegram {
+}
+.fa-solid {
+}
+.fa-phone {
+}
+.fa-location-dot {
+}
